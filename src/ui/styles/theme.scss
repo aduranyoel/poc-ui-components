@@ -14,3 +14,10 @@ body {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
 }
+
+input, button {
+  color: $color;
+  border: 1px dashed $color;
+  padding: 8px;
+  background: transparent;
+}
